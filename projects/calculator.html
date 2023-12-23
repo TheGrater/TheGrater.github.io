@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> somethihng </title>
+        <link rel="stylesheet" href="../assets/styles/calculator.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <form>
+                    <div class="display">
+                        <input type="text" id="display">
+                    </div>
+                    <div>
+                        <input type="button" value="AC" onclick = "display.value = ''">
+                        <input type="button" value="DE">
+                        <input type="button" value="." class = "decimal">
+                        <input type="button" value="/" class = "operator">
+                    </div>
+                    <div>
+                        <input type="button" value="7" class="number">
+                        <input type="button" value="8" class="number">
+                        <input type="button" value="9" class="number">
+                        <input type="button" value="*" class = "operator">
+                    </div>
+                    <div>
+                        <input type="button" value="4" class="number">
+                        <input type="button" value="5" class="number">
+                        <input type="button" value="6" class="number">
+                        <input type="button" value="-" class = "operator">
+                    </div>
+                    <div>
+                        <input type="button" value="1" class="number">
+                        <input type="button" value="2" class="number">
+                        <input type="button" value="3" class="number">
+                        <input type="button" value="+" class = "operator">
+                    </div>
+                    <div>
+                        <input type="button" value="00">
+                        <input type="button" value="0" class="number">
+                        <input type="button" value="=" class="equal">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src = "../assets/scripts/calculator.js"></script>
+    </body>
+</html>
